@@ -1,0 +1,24 @@
+{
+  "number": 68,
+  "product_id": "JLZ-EDU-SK-054",
+  "chinese_name": "教培岗位说明书",
+  "english_name": "Job Description Generator",
+  "repository_name": "edu-job-description-generator",
+  "product_type": "Skill",
+  "category": "06 人力组织中心",
+  "version": "1.0.0",
+  "status": "PACKAGE_READY",
+  "workbuddy_validation": "NOT_VERIFIED",
+  "license": "Apache-2.0",
+  "baseline_tag": "education-product-baseline-v1.0.0",
+  "package_path": "dist/edu-job-description-generator-v1.0.0.zip",
+  "calculator": false,
+  "core_input": "岗位名称、组织层级、汇报关系、核心任务、任职资格和绩效接口",
+  "main_output": "岗位说明书、职责边界、任职要求、协作关系、绩效指标和待确认项",
+  "package_entries": [
+    "edu-job-description-generator/SKILL.md",
+    "edu-job-description-generator/references/DOMAIN_GUIDE.md",
+    "edu-job-description-generator/references/EXAMPLES.md",
+    "edu-job-description-generator/templates/OUTPUT_TEMPLATE.md"
+  ]
+}
