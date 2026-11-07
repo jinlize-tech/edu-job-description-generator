@@ -6,19 +6,38 @@
   "repository_name": "edu-job-description-generator",
   "product_type": "Skill",
   "category": "06 人力组织中心",
-  "version": "1.0.0",
-  "status": "PACKAGE_READY",
-  "workbuddy_validation": "NOT_VERIFIED",
+  "version": "1.0.1",
+  "previous_version": "1.0.0",
+  "g5_status": "G5_STRENGTHENED",
+  "status": "G9_PRE_RELEASE_ACCEPTED",
+  "package_state": "GITHUB_PACKAGE_PRE_RELEASE_READY",
+  "runtime_status": "NOT_RUNTIME_VERIFIED",
+  "workbuddy_validation": "WORKBUDDY_VALIDATION_NOT_IN_SCOPE",
   "license": "Apache-2.0",
   "baseline_tag": "education-product-baseline-v1.0.0",
-  "package_path": "dist/edu-job-description-generator-v1.0.0.zip",
+  "baseline_commit": "388fd51b97d7250e9b4a0f2a98903bf642b7b307",
+  "package_path": "dist/edu-job-description-generator-v1.0.1.zip",
+  "previous_package_path": "dist/edu-job-description-generator-v1.0.0.zip",
+  "previous_package_sha256": "AEC77668DB9EFE94999F8BC86BFA859ADA1E2B22251DBFF3C7F53A356F111ABC",
   "calculator": false,
   "core_input": "岗位名称、组织层级、汇报关系、核心任务、任职资格和绩效接口",
   "main_output": "岗位说明书、职责边界、任职要求、协作关系、绩效指标和待确认项",
+  "main_output_fields": [
+    "岗位说明书",
+    "职责边界",
+    "任职要求",
+    "协作关系",
+    "绩效指标和待确认项"
+  ],
   "package_entries": [
     "edu-job-description-generator/SKILL.md",
     "edu-job-description-generator/references/DOMAIN_GUIDE.md",
     "edu-job-description-generator/references/EXAMPLES.md",
-    "edu-job-description-generator/templates/OUTPUT_TEMPLATE.md"
+    "edu-job-description-generator/templates/OUTPUT_TEMPLATE.md",
+    "edu-job-description-generator/README.md",
+    "edu-job-description-generator/USAGE.md",
+    "edu-job-description-generator/LICENSE",
+    "edu-job-description-generator/THIRD_PARTY_NOTICES.md",
+    "edu-job-description-generator/scripts/validate_input.js"
   ]
 }
